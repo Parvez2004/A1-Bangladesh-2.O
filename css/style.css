@@ -9,11 +9,13 @@
 body {
     font-family: "Fira Sans", serif;
     background-color: #f5f5f5;
- 
+
 }
-.body-margin{
+
+.body-margin {
     margin: 0 137px;
 }
+
 /* shared style */
 .btn-primary {
     background-color: #006A50;
@@ -30,41 +32,47 @@ body {
     background-color: #45a049;
 }
 
-.common-title{
+.common-title {
     font-size: 34.15px;
     margin-bottom: 20.5px;
 }
-.common-p{
+
+.common-p {
     color: #0E0E0E;
     opacity: 70%;
     line-height: 24px;
     font-size: 13.6px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 /* Navbar */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 27px !important;
     padding: 20px 0;
 }
-.nav-title{
+
+.nav-title {
     font-size: 27px;
 }
-.navbar .sign-btn{
+
+.navbar .sign-btn {
     padding: 12.8px 25.5px;
     border-radius: 6.6px;
-    border:2px solid #006A50;
+    border: 2px solid #006A50;
     color: #006A50;
     background-color: transparent;
     font-weight: bold;
     font-size: 15px;
-    
+
 }
-.navbar .sign-btn:hover{
+
+.navbar .sign-btn:hover {
     border: 2px solid black;
     cursor: pointer;
     color: black;
@@ -78,7 +86,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 75px ;
+    margin-bottom: 75px;
     background-color: #C6E4D6;
     border-radius: 20.5px;
 }
@@ -100,7 +108,7 @@ body {
     font-weight: 500;
 }
 
-.banner-img{
+.banner-img {
     width: 50%;
     margin-top: 68.3px 0;
 }
@@ -110,23 +118,27 @@ body {
     height: 341.5px;
     margin-left: 51.22px;
 }
+
 /* piller */
-#piller{
+#piller {
     margin-bottom: 67px;
 }
-.pillers-card{
+
+.pillers-card {
     display: flex;
     justify-content: space-between;
     gap: 15px;
 }
-.pillers-card .card{
+
+.pillers-card .card {
     width: 257px;
     padding: 20.5px;
     background-color: #FFFFFF;
     border-radius: 13.66px;
 }
+
 /* vision section start */
-.vision-card{
+.vision-card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -136,28 +148,32 @@ body {
     margin: 27.3px 0;
 }
 
-.vision-card .card-1{
+.vision-card .card-1 {
     background-color: rgba(84, 144, 245, 0.2);
-    
+
 }
-.similar-card-design{
+
+.similar-card-design {
     padding: 27.3px;
-    border-radius:13.66px;
+    border-radius: 13.66px;
     width: 350px !important;
-    
+
 }
-.similar-card-design img{
+
+.similar-card-design img {
     height: 54.64px;
     width: 54.74px;
     margin-bottom: 20.50px;
 
 }
-.similar-card-design .card-title{
+
+.similar-card-design .card-title {
     font-size: 17px;
     color: rgba(14, 14, 14, 0.8);
     margin-bottom: 10.24px;
 }
-.btn-card{
+
+.btn-card {
     background-color: #5490F5;
     padding: 9.40px 17px;
     color: #FFFFFF;
@@ -169,24 +185,30 @@ body {
     margin-top: 20.5px;
 
 }
-.btn-card:hover{
+
+.btn-card:hover {
     background-color: #f5f5f5;
     color: #0E0E0E;
 }
-.card-2{
+
+.card-2 {
     background-color: rgba(198, 228, 214, 1);
 }
-.card-2 button{
+
+.card-2 button {
     background-color: #09A15C;
 }
-.card-3{
+
+.card-3 {
     background-color: rgba(247, 235, 207, 1);
 }
-.card-3 button{
-    background-color:rgba(255, 194, 57, 1);
+
+.card-3 button {
+    background-color: rgba(255, 194, 57, 1);
 }
+
 /* mission started */
-.mission{
+.mission {
     height: 200px;
     background-color: #FFFFFF;
     background-image: url(../assets/quote-bg.png);
@@ -196,17 +218,19 @@ body {
     margin-bottom: 68px;
     padding: 41px 20.5px;
 }
-.mission h3{
+
+.mission h3 {
     font-size: 17px;
     font-weight: bold;
     margin-top: 20px;
 }
 
 /* news card start */
-.recent-news{
+.recent-news {
     margin-bottom: 68px;
 }
-.news-card{
+
+.news-card {
     display: flex;
     justify-content: space-between;
     padding: 41px;
@@ -215,117 +239,139 @@ body {
     border-radius: 20.50px;
     margin-top: 21px;
 }
-.news-img .img-left{
+
+.news-img .img-left {
     width: 348px;
     height: 261px;
     border-radius: 20.5px;
     margin-right: 41px;
 }
-.news-img .img-right{
+
+.news-img .img-right {
     width: 348px;
     height: 261px;
     border-radius: 20.5px;
     margin-left: 41px;
 }
-.news-content h2,img,.common-p{
+
+.news-content h2,
+img,
+.common-p {
     margin-bottom: 10.24px;
 }
-.news-content h2{
+
+.news-content h2 {
     font-size: 27px;
     color: rgba(14, 14, 14, 0.8);
     margin-bottom: 10.24px;
 }
-.news-content span{
+
+.news-content span {
     margin-left: 5px;
 }
+
 /* donate */
-.donate{
+.donate {
     text-align: center;
     padding: 0 89px;
 }
-.donate-amount{
+
+.donate-amount {
     width: 914px;
     margin-top: 27px;
 }
-.donate-amount button{
+
+.donate-amount button {
     padding: 34px;
     border-radius: 13.66px;
     border: none;
     background-color: #FFFFFF;
     font-size: 34px;
     font-weight: bold;
-    color: rgba(14, 14, 14, 0.8) ;
+    color: rgba(14, 14, 14, 0.8);
     margin-right: 10px;
     margin-bottom: 27px;
 }
-.donate-amount button:hover{
+
+.donate-amount button:hover {
     background-color: #C6E4D6;
     cursor: pointer;
-        
+
 }
-.donate-amount button:nth-child(2)   {
+
+.donate-amount button:nth-child(2) {
     background-color: #C6E4D6;
     cursor: pointer;
 }
-.donate input{
+
+.donate input {
     padding: 20px;
     width: 870px;
     margin-bottom: 27px;
     border: none;
 }
-.donate input::placeholder{
+
+.donate input::placeholder {
     padding: 10px;
     text-align: center;
 }
+
 /* subscribe style start */
-#subscribe{
+#subscribe {
     margin: 68px 0;
     background-color: #C6E4D6;
     text-align: center;
     padding: 68px 226.24px;
     border-radius: 20.5px;
 }
-#subscribe input{
+
+#subscribe input {
     padding: 16.3px 34px;
     width: 400px;
     border: none;
     margin-top: 10.5px;
     margin-bottom: 20.5px;
 }
-#subscribe button{
+
+#subscribe button {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     margin-left: -03px;
 }
+
 /* footer */
-#footer{
+#footer {
     height: 192px;
     width: 1349px !important;
     background-color: #fff;
     text-align: center;
-    
+
 
 }
-.footer-title{
+
+.footer-title {
     color: #0E0E0E;
     font-size: 27px;
     padding-top: 43px;
     padding-bottom: 27px;
 }
-#footer hr{
+
+#footer hr {
     width: 957px;
     margin: 0 auto;
 }
 
-#footer .icons{
+#footer .icons {
     padding-top: 27px;
     width: 1330px;
     display: flex;
     justify-content: center;
     gap: 20px;
-    
+
 }
-#footer .icons a img{
+
+#footer .icons a img {
     justify-content: space-between;
-    
+
 }
+/* A1 done */
