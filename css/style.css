@@ -97,6 +97,7 @@ body {
 .banner-content-subtitle {
     color: #0E0E0E;
     opacity: 50%;
+    font-weight: 500;
 }
 
 .banner-img{
@@ -116,7 +117,7 @@ body {
 .pillers-card{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
 }
 .pillers-card .card{
     width: 257px;
@@ -190,7 +191,7 @@ body {
     background-color: #FFFFFF;
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: 20px 20px;
+    background-position: 20px 16px;
     border-radius: 13.66px;
     margin-bottom: 68px;
     padding: 41px 20.5px;
@@ -244,6 +245,7 @@ body {
 }
 .donate-amount{
     width: 914px;
+    margin-top: 27px;
 }
 .donate-amount button{
     padding: 34px;
