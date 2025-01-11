@@ -43,12 +43,42 @@ body {
 .text-center{
     text-align: center;
 }
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 27px !important;
+    padding: 20px 0;
+}
+.nav-title{
+    font-size: 27px;
+}
+.navbar .sign-btn{
+    padding: 12.8px 25.5px;
+    border-radius: 6.6px;
+    border:2px solid #006A50;
+    color: #006A50;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.navbar .sign-btn:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+    background-color: #ffffff;
+
+}
+
+
 /* Banner styles */
 .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 75px 0;
+    margin-bottom: 75px ;
     background-color: #C6E4D6;
     border-radius: 20.5px;
 }
@@ -79,7 +109,21 @@ body {
     height: 341.5px;
     margin-left: 51.22px;
 }
-
+/* piller */
+#piller{
+    margin-bottom: 67px;
+}
+.pillers-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pillers-card .card{
+    width: 257px;
+    padding: 20.5px;
+    background-color: #FFFFFF;
+    border-radius: 13.66px;
+}
 /* vision section start */
 .vision-card{
     display: flex;
@@ -216,6 +260,10 @@ body {
     background-color: #C6E4D6;
     cursor: pointer;
         
+}
+.donate-amount button:nth-child(2)   {
+    background-color: #C6E4D6;
+    cursor: pointer;
 }
 .donate input{
     padding: 20px;
