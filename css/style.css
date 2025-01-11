@@ -9,9 +9,11 @@
 body {
     font-family: "Fira Sans", serif;
     background-color: #f5f5f5;
+ 
+}
+.body-margin{
     margin: 0 137px;
 }
-
 /* shared style */
 .btn-primary {
     background-color: #006A50;
@@ -224,4 +226,56 @@ body {
 .donate input::placeholder{
     padding: 10px;
     text-align: center;
+}
+/* subscribe style start */
+#subscribe{
+    margin: 68px 0;
+    background-color: #C6E4D6;
+    text-align: center;
+    padding: 68px 226.24px;
+    border-radius: 20.5px;
+}
+#subscribe input{
+    padding: 16.3px 34px;
+    width: 400px;
+    border: none;
+    margin-top: 10.5px;
+    margin-bottom: 20.5px;
+}
+#subscribe button{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: -03px;
+}
+/* footer */
+#footer{
+    height: 192px;
+    width: 1349px !important;
+    background-color: #fff;
+    text-align: center;
+    
+
+}
+.footer-title{
+    color: #0E0E0E;
+    font-size: 27px;
+    padding-top: 43px;
+    padding-bottom: 27px;
+}
+#footer hr{
+    width: 957px;
+    margin: 0 auto;
+}
+
+#footer .icons{
+    padding-top: 27px;
+    width: 1330px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+#footer .icons a img{
+    justify-content: space-between;
+    
 }
